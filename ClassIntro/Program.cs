@@ -30,7 +30,7 @@ namespace ClassIntro
 
             foreach (var kurs in kurslar)
             {
-                Console.WriteLine(kurs.KursAdi + " : " + kurs.Egitmen);
+                Console.WriteLine(kurs.KursAdi + " : " + kurs.Egitmen + " / İzlenme Oranı : " + kurs.IzlenmeOrani);
             }
         }
     }
